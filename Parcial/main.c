@@ -137,7 +137,10 @@ int main()
 				break;
 
 			case 9:
-				printf("-=Filtrar por nombre piloto=-");
+				printf("-=Filtrar por nombre piloto=-\n");
+				printf("-=Lista actual=-\n");
+				controller_Rodicio_printPilotos(listaPilotos);
+
 				controller_Rodicio_filtrarPilotoPorNombre(listaPilotos);
 				break;
 
